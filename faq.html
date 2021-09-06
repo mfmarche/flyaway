@@ -1,0 +1,1296 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <title>FAQ</title>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+
+      rel="stylesheet"
+
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+
+      crossorigin="anonymous"
+
+    />
+
+    <link rel="stylesheet" href="css/footer.css" />
+
+
+
+    <style>
+
+      body {
+
+        margin: 0 auto;
+
+        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+      }
+
+
+
+      .navbar-grey {
+
+        width: 100%;
+
+        height: 100px;
+
+        background-color: lightgray;
+
+        transition: 0.5s;
+
+        position: fixed;
+
+        z-index: 9;
+
+      }
+
+
+
+      #branding {
+
+        float: left;
+
+      }
+
+
+
+      #branding img {
+
+        width: 210px;
+
+        height: 80px;
+
+        margin-left: 20px;
+
+      }
+
+
+
+      .navlinks {
+
+        float: right;
+
+        padding-top: 30px;
+
+        padding-right: 15px;
+
+      }
+
+
+
+      .navlink-a {
+
+        text-decoration: none !important;
+
+        color: black;
+
+        font-weight: bold;
+
+        padding-right: 10px;
+
+        padding-left: 10px;
+
+        font-size: 1.7em;
+
+        transition: 0.5s;
+
+      }
+
+
+
+      .navlink-a:hover {
+
+        color: darkgrey;
+
+      }
+
+
+
+      #open {
+
+        height: 35px;
+
+        min-width: 80px;
+
+        margin: auto;
+
+        color: black;
+
+        background-color: transparent;
+
+        border-color: black;
+
+        border-radius: 10px;
+
+        transition: 0.5s;
+
+        display: none;
+
+      }
+
+
+
+      #open:hover {
+
+        background-color: black;
+
+        color: white;
+
+      }
+
+
+
+      #portfolio:hover {
+
+        color: darkgrey;
+
+        cursor: pointer;
+
+      }
+
+
+
+      .droplink-a {
+
+        transition: 0.5s;
+
+        text-decoration: none !important;
+
+        color: black;
+
+        font-weight: bold;
+
+        padding-right: 5px;
+
+        padding-left: 5px;
+
+      }
+
+
+
+      .droplink-a:hover {
+
+        color: darkgrey;
+
+      }
+
+      
+
+      .droplink {
+
+          color:black;
+
+          padding-left:5px;
+
+          padding-right:5px;
+
+      }
+
+
+
+      .portfolio-drop {
+
+        display: none;
+
+        position: absolute;
+
+        text-align:center;
+
+      }
+
+
+
+      @media (max-width: 950px) {
+
+        #open {
+
+          display: block;
+
+        }
+
+
+
+        .navlink-a {
+
+          display: none;
+
+        }
+
+
+
+        .navlinks {
+
+          float: none;
+
+          text-align: center;
+
+        }
+
+      }
+
+
+
+      @media (min-width: 951px) {
+
+        #open {
+
+          display: none;
+
+        }
+
+
+
+        .navlink-a {
+
+          display: inline-block;
+
+        }
+
+      }
+
+
+
+      .accoridon {
+
+        max-width: 500px;
+
+        margin: 50px auto;
+
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+
+      }
+
+
+
+      #accordionExample {
+
+        max-width: 60%;
+
+        margin: 50px auto;
+
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+
+      }
+
+
+
+      .title {
+
+        text-align: center;
+
+        font-size: 4em;
+
+      }
+
+
+
+    </style>
+
+  </head>
+
+
+
+  <body>
+
+    <!--Start Navbar-->
+
+    <div class="navbar-grey">
+
+      <a href="index.html" id="branding"
+
+        ><img alt="logo" src="images/hlogo.png"
+
+      /></a>
+
+
+
+      <div class="navlinks">
+
+        <button id="open">Menu</button>
+
+        <a href="index.html" class="navlink-a" id="active">Home</a>
+
+        <a href="about.html" class="navlink-a">I'm Kate</a>
+
+        <a class="navlink-a" id="portfolio">Gallery</a>
+
+        <a href="pricing.html" class="navlink-a">Pricing</a>
+
+        <a href="faq.html" class="navlink-a">FAQ</a>
+
+        <a href="contact.html" class="navlink-a">Contact</a>
+
+
+
+          <div class="portfolio-drop">
+
+            <a href="portfolio/family.php" class="droplink">Family</a>
+
+            <a href="portfolio/kids.php" class="droplink">Kids</a>
+
+            <a href="portfolio/newborn.php" class="droplink">Newborn</a>
+
+            <a href="portfolio/couples.php" class="droplink">Couples</a>
+
+            <a href="portfolio/maternity.php" class="droplink">Maternity</a>
+
+          </div>
+
+      </div>
+
+    </div>
+
+    <!--End Navbar-->
+
+    <br /><br /><br /><br /><br />
+
+
+
+    <h1 class="title">FAQ</h1>
+
+
+
+    <div class="accordion" id="accordionExample">
+
+      <div class="card">
+
+        <div class="card-header" id="headingOne">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseOne"
+
+              aria-expanded="true"
+
+              aria-controls="collapseOne"
+
+            >
+
+              What if it rains?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+
+
+        <div
+
+          id="collapseOne"
+
+          class="collapse show"
+
+          aria-labelledby="headingOne"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            We will communicate on the day of your session. If it is calling for
+
+            rain we will come up with a plan to determine if we can proceed with
+
+            your session. If percentages are low, we will most likely do the
+
+            session, if not, we will reschedule for an alternative date that
+
+            works for both of us.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingTwo">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseTwo"
+
+              aria-expanded="false"
+
+              aria-controls="collapseTwo"
+
+            >
+
+              What should we wear?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseTwo"
+
+          class="collapse"
+
+          aria-labelledby="headingTwo"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            Coordinating colours, patterns, and textures work best vs. matching
+
+            (all white shirts and jeans). <a href="https://pin.it/kfk6ertw6e5nh7" target="_blank">Here</a> is a link to my Pinterest board
+
+            to give you some inspiration. When deciding if outfits work
+
+            together, I suggest laying everything out on your bed, everything
+
+            from little hair accessories to shoes. I would be more than happy to
+
+            give you advice and tips when in the planning stages of your
+
+            session.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingThree">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseThree"
+
+              aria-expanded="false"
+
+              aria-controls="collapseThree"
+
+            >
+
+              Where will the sessions take place?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseThree"
+
+          class="collapse"
+
+          aria-labelledby="headingThree"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            Depending on your visions for a location, together we will come up
+
+            with the best place to capture you. Examples of types of location:
+
+            urban bricks, long grass, open field, city. I do have favourite
+
+            locations in the Cambridge area due to lighting, atmosphere and
+
+            overall looks/visuals.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingFour">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseFour"
+
+              aria-expanded="false"
+
+              aria-controls="collapseFour"
+
+            >
+
+              How long are the sessions?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseFour"
+
+          class="collapse"
+
+          aria-labelledby="headingFour"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            Family, maternity and couple sessions will be approximately 30-45
+
+            minutes long. Newborn sessions will be around one-hour long as we
+
+            are on baby’s schedule, this allows for changing + feeding breaks.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingFive">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseFive"
+
+              aria-expanded="false"
+
+              aria-controls="collapseFive"
+
+            >
+
+              What is your cancellation policy?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseFive"
+
+          class="collapse"
+
+          aria-labelledby="headingFive"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            To secure your spot, a non-refundable deposit is required.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingSix">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseSix"
+
+              aria-expanded="false"
+
+              aria-controls="collapseSix"
+
+            >
+
+              What if we're sick?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseSix"
+
+          class="collapse"
+
+          aria-labelledby="headingSix"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            Life happens, I totally understand. We will work together to come up
+
+            with an alternative date.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingSeven">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseSeven"
+
+              aria-expanded="false"
+
+              aria-controls="collapseSeven"
+
+            >
+
+              How do I pay and when?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseSeven"
+
+          class="collapse"
+
+          aria-labelledby="headingSeven"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            I accept cash, e-transfer, and cheque. Choose whichever payment
+
+            method is best for you. At this time I do not accept cryptocurrency
+
+            lol. The remaining full payment (after the deposit) is required on
+
+            the day of your session.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingEight">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseEight"
+
+              aria-expanded="false"
+
+              aria-controls="collapseEight"
+
+            >
+
+              How will I receive my photos?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseEight"
+
+          class="collapse"
+
+          aria-labelledby="headingEight"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            You will receive your photos via an online gallery that can be
+
+            downloaded onto a desktop or laptop device. If you do not have
+
+            access to a computer, you will receive your photos on a USB.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingNine">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseNine"
+
+              aria-expanded="false"
+
+              aria-controls="collapseNine"
+
+            >
+
+              How do I book a session?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseNine"
+
+          class="collapse"
+
+          aria-labelledby="headingNine"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            You can click
+
+            <a
+
+              href="../contact.php"
+
+              >here</a
+
+            >
+
+            to contact me and we can chat and arrange your session.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingTen">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseTen"
+
+              aria-expanded="false"
+
+              aria-controls="collapseTen"
+
+            >
+
+              When should I book my maternity session?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseTen"
+
+          class="collapse"
+
+          aria-labelledby="headingTen"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            Maternity sessions are booked in your second trimester. The best
+
+            times for maternity sessions are within the 30-34 week mark, during
+
+            this time frame, your beautiful belly is showing and we don’t risk
+
+            getting too close to due date.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingEleven">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseEleven"
+
+              aria-expanded="false"
+
+              aria-controls="collapseEleven"
+
+            >
+
+              When should I book my newborn session?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseEleven"
+
+          class="collapse"
+
+          aria-labelledby="headingEleven"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            We will book an approximate date during your third trimester. When
+
+            baby is born, just send me a message and we can go over what
+
+            date/time works best. The session itself will occur within the first
+
+            couple of weeks, this way baby is still sleepy (easy for posing),
+
+            and is still in the newborn stage.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingTwelve">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseTwelve"
+
+              aria-expanded="false"
+
+              aria-controls="collapseTwelve"
+
+            >
+
+              When will I receive my photos?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseTwelve"
+
+          class="collapse"
+
+          aria-labelledby="headingTwelve"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            You will receive your photos within three weeks of your session
+
+            date. Within two days of your session, you will receive a few sneak
+
+            peeks of your photos.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingThirteen">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseThirteen"
+
+              aria-expanded="false"
+
+              aria-controls="collapseThirteen"
+
+            >
+
+              What if I want to buy more photos?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseThirteen"
+
+          class="collapse"
+
+          aria-labelledby="headingThirteen"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            You will receive the designated amount of photos for your session. If there are additional gallery worthy photos, I will give you the option to purchase the additional photos for your gallery. It is an additional $2 per photo. The number of additional photos varies for each session.
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <div class="card-header" id="headingFourteen">
+
+          <h2 class="mb-0">
+
+            <button
+
+              class="btn btn-link collapsed"
+
+              type="button"
+
+              data-toggle="collapse"
+
+              data-target="#collapseFourteen"
+
+              aria-expanded="false"
+
+              aria-controls="collapseFourteen"
+
+            >
+
+              Who chooses the images in the final gallery?
+
+            </button>
+
+          </h2>
+
+        </div>
+
+        <div
+
+          id="collapseFourteen"
+
+          class="collapse"
+
+          aria-labelledby="headingFourteen"
+
+          data-parent="#accordionExample"
+
+        >
+
+          <div class="card-body">
+
+            I will use my best judgement and professional eye to choose and edit the best photos that capture your essence.
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="footer">
+
+      <a href="https://www.instagram.com/fly.awayphotography/" target="_blank"><img src="images/footerinsta.png" /></a>
+
+      <a href="mailto:kateflyawayphotography@gmail.com"><img src="images/footeremail.png" /></a>
+
+      <br />
+
+      <p class="footerlinks"><a href="index.html">Home</a> • <a href="about.html">About</a> • <a href="portfolio/family.php">Family</a> • <a href="portfolio/kids.php">Kids</a> • <a href="portfolio/newborn.php">Newborn</a> • <a href="portfolio/couples.php">Couples</a> • <a href="portfolio/maternity.php">Maternity</a> • <a href="faq.html">FAQ</a> • <a href="pricing.html">Pricing</a> • <a href="contact.php">Contact</a></p>
+
+      <br />
+
+      <p class="credit">&copy; Fly Away Photography, 2021</p>
+
+      <p class="credit">Powered by <a href="http://papayatech.ca/" id="papaya">Papaya Tech Solutions</a></p>
+
+    </div>
+
+
+
+    <script
+
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+    <script
+
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+    <script
+
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+
+
+    <script>
+
+      var open;
+
+      var menuopen;
+
+      open = "false";
+
+      menuopen = "false";
+
+      $("#portfolio").click(function() {
+
+        if (open == "false") {
+
+          $(".portfolio-drop").css("display", "block");
+
+          $("#portfolio").css("color", "darkgrey");
+
+          open = "true";
+
+        } else {
+
+          $(".portfolio-drop").css("display", "none");
+
+          $("#portfolio").css("color", "black");
+
+          open = "false";
+
+        }
+
+      });
+
+
+
+      $("#open").click(function() {
+
+        if (menuopen == "false") {
+
+          $(".navbar-grey").css("height", "355px");
+
+          $(".navlink-a").css("display", "block");
+
+          $("#branding").css("display", "none");
+
+          menuopen = "true";
+
+        } else {
+
+          $(".navbar-grey").css("height", "100px");
+
+          $(".navlink-a").css("display", "none");
+
+          $("#branding").css("display", "block");
+
+          menuopen = "false";
+
+          $(".portfolio-drop").css("display", "none");
+
+          $("#portfolio").css("color", "black");
+
+          open = "false";
+
+        }
+
+      });
+
+    </script>
+
+  </body>
+
+</html>
+

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <title>Fly Away Photography</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+    <style>
+
+      body {
+
+        margin: 0 auto;
+
+        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+
+      }
+
+
+
+      .portfolio-drop {
+
+        display: none;
+
+      }
+
+
+
+      .navbar {
+
+        width: 100%;
+
+        height: 170px;
+
+        background-color: transparent;
+
+        text-align: center;
+
+        border-radius: 0px 0px 10px 10px;
+
+        transition: 0.5s;
+
+      }
+
+
+
+      .navlinks {
+
+        width: 100%;
+
+        height: 20px;
+
+        display: inline-block;
+
+        text-align: center;
+
+        margin-top: 15px;
+
+      }
+
+
+
+      .navlink {
+
+        text-decoration: none;
+
+        color: black;
+
+        font-weight: bold;
+
+        padding-right: 10px;
+
+        padding-left: 10px;
+
+        font-size: 1.7em;
+
+        transition: 0.5s;
+
+      }
+
+
+
+      #branding img {
+
+        width: 250px;
+
+        height: 100px;
+
+      }
+
+
+
+      .container {
+
+        background-image: url("images/covers/IMG_2699.jpg");
+
+        background-size: cover;
+
+        background-position: center center;
+
+        background-repeat:no-repeat;
+
+        background-attachment:fixed;
+
+        text-align: center;
+
+      }
+
+
+
+      .container h1 {
+
+        font-size: 8vh;
+
+        padding-top: 15px;
+
+        text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+
+          1px 1px 0 white;
+
+      }
+
+
+
+      .navlink:hover {
+
+        color: #414242;
+
+      }
+
+
+
+      .droplink {
+
+        transition: 0.5s;
+
+        text-decoration: none;
+
+        color: black;
+
+        font-weight: bold;
+
+        padding-right: 5px;
+
+        padding-left: 5px;
+
+      }
+
+
+
+      .droplink:hover {
+
+        color: #414242;
+
+      }
+
+
+
+      #portfolio:hover {
+
+        color: #414242;
+
+        cursor: pointer;
+
+      }
+
+
+
+      .container h2 {
+
+        font-size: 5vh;
+
+        margin-top: -30px;
+
+        text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+
+          1px 1px 0 white;
+
+      }
+
+
+
+      .book {
+
+        width: 150px;
+
+        height: 50px;
+
+        background-color: black;
+
+        padding: 5px;
+
+        border-radius: 10px;
+
+        border: 2px solid black;
+
+        color: white;
+
+        font-family: Arial, Helvetica, sans-serif;
+
+        box-shadow: none;
+
+        font-size: 1.2em;
+
+      }
+
+
+
+      .book:hover {
+
+        cursor: pointer;
+
+      }
+
+
+
+      @media (max-width: 700px) {
+
+        #open {
+
+          display: block;
+
+        }
+
+        .navlink {
+
+          display: none;
+
+        }
+
+      }
+
+
+
+      @media (min-width: 701px) {
+
+        #open {
+
+          display: none;
+
+        }
+
+        .navlink {
+
+          display: inline-block;
+
+        }
+
+      }
+
+
+
+      #open {
+
+        height: 35px;
+
+        min-width: 80px;
+
+        margin: auto;
+
+        color: black;
+
+        background-color: transparent;
+
+        border-color: black;
+
+        border-radius: 10px;
+
+        transition: 0.5s;
+
+      }
+
+
+
+      #open:hover {
+
+        background-color: black;
+
+        color: white;
+
+      }
+
+    </style>
+
+  </head>
+
+  <body onkeydown="myFunction(event)">
+
+    <div class="container">
+
+      <!--Navbar-->
+
+      <div class="navbar">
+
+        <a href="index.html" id="branding"
+
+          ><img alt="logo" src="images/hlogo.png"
+
+        /></a>
+
+
+
+        <div class="navlinks">
+
+          <button id="open">Menu</button>
+
+          <a href="index.html" class="navlink" id="active">Home</a>
+
+          <a href="about.html" class="navlink">I'm Kate</a>
+
+          <a class="navlink" id="portfolio">Gallery</a>
+
+          <a href="pricing.html" class="navlink">Pricing</a>
+
+          <a href="faq.html" class="navlink">FAQ</a>
+
+          <a href="contact.html" class="navlink">Contact</a>
+
+          <div class="portfolio-drop">
+
+            <a href="portfolio/family.php" class="droplink">Family</a>
+
+            <a href="portfolio/kids.php" class="droplink">Kids</a>
+
+            <a href="portfolio/newborn.php" class="droplink">Newborn</a>
+
+            <a href="portfolio/couples.php" class="droplink">Couples</a>
+
+            <a href="portfolio/maternity.php" class="droplink">Maternity</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!--End Navbar-->
+
+
+
+      <h1>Fly Away Photography</h1>
+
+      <h2>Candidly capturing you & yours</h2>
+
+      <a href="contact.html"><button class="book">Book</button></a>
+
+    </div>
+
+    <script
+
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+    <script>
+
+
+
+    function myFunction(event) {
+
+        var x = event.keyCode;
+
+        if (x == 192) {
+
+            window.location.replace("http://flyawayphotography.ca/password.php");
+
+        }
+
+    }
+
+      
+
+      $(".container").css("min-height", $(window).height());
+
+      var open;
+
+      var menuopen;
+
+      open = "false";
+
+      menuopen = "false";
+
+      $("#portfolio").click(function() {
+
+        if (open == "false") {
+
+          $(".portfolio-drop").css("display", "block");
+
+          $("#portfolio").css("color", "#414242");
+
+          open = "true";
+
+        } else {
+
+          $(".portfolio-drop").css("display", "none");
+
+          $("#portfolio").css("color", "black");
+
+          open = "false";
+
+        }
+
+      });
+
+
+
+      $("#open").click(function() {
+
+        if (menuopen == "false") {
+
+          $(".navbar").css("height", "370px");
+
+          $(".navlink").css("display", "block");
+
+          menuopen = "true";
+
+        } else {
+
+          $(".navbar").css("height", "170px");
+
+          $(".navlink").css("display", "none");
+
+          menuopen = "false";
+
+          $(".portfolio-drop").css("display", "none");
+
+          $("#portfolio").css("color", "black");
+
+          open = "false";
+
+        }
+
+      });
+
+    </script>
+
+  </body>
+
+</html>
+

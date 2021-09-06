@@ -1,0 +1,48 @@
+      html {
+          overflow-x:hidden;
+      }
+      .footer {
+        width: 100%;
+        color: white;
+        background-color: black;
+        text-align: center;
+        height: auto;
+        padding-top: 20px;
+        font-family:Arial;
+        padding-bottom:20px;
+      }
+
+      .footer img {
+          width:3vw;
+          height:auto;
+          margin-left:10px;
+          margin-right:10px;
+          transition:0.5s;
+          padding-bottom:20px;
+      }
+      
+      .footer img:hover {
+          transform:scale(1.05);
+      }
+      
+      .footer a {
+          text-decoration:none;
+          color:white;
+          transition:0.5s;
+          font-weight:bold;
+      }
+      
+      .footer a:hover {
+          color:grey;
+      }
+      
+      .credit {
+          color:grey;
+          line-height:5px;
+          font-size:14px;
+      }
+      
+      #papaya {
+          color:grey !important;
+          font-weight:normal;
+      }
